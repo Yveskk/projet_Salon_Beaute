@@ -18,7 +18,7 @@ function Footer() {
         duration: 0.8,
       }}
       >
-        &copy; React Website Transition Animation
+        &copy; 2022 Salon de beauté Mm.Yvesco
       </motion.span>
       <motion.div className="footer__social__icons"
       variants={footerTextAnimation}
@@ -32,7 +32,7 @@ function Footer() {
         <BsFacebook />
         <BsTwitter />
         <BsYoutube />
-        <BsBehance />
+       
       </motion.div>
     </Foot>
   )

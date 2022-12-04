@@ -16,17 +16,17 @@ function Milestones() {
   const milestone = [
     {
       image: milestone1,
-      data: "Client Served",
+      data: "Client servi",
       amount: "877",
     },
     {
       image: milestone2,
-      data: "of raw data",
+      data: "de données brutes",
       amount: "1.4M",
     },
     {
       image: milestone3,
-      data: "Reviews",
+      data: "Commentaires",
       amount: "5.4K",
     },
 ]

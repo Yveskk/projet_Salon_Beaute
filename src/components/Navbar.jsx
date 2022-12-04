@@ -43,7 +43,7 @@ function Navbar() {
             <a href="#services">Services</a>
           </li>
           <li>
-            <a href="#portfolio">Portfolio</a>
+            <a href="#portfolio">Galerie</a>
           </li>
           <li>
             <a href="#blog">Blog</a>

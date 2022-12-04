@@ -27,45 +27,39 @@ function Pricing() {
 
   const data = [
     {
-      value: "Full face Rs.250",
+      value: "Plein visage Rs.250",
       type: "Basic",
     },
     {
-      value: "Cheeks Rs. 90",
+      value: "Joues Rs. 90",
       type: "Basic",
     },
     {
-      value: "Jawline Rs.50",
+      value: "Mâchoire Rs.50",
       type: "Basic",
     },
     {
-      value: "Lower Lip Rs.50",
+      value: "  Lèvre inférieure Rs.50",
       type: "Basic",
     },
     {
-      value: "Upper Lip Rs.50",
+      value: " Lèvre supérieure Rs.50",
       type: "Basic",
     },
     {
-      value: "Under arms Rs.100",
+      value: "Sous les bras Rs.100",
       type: "Basic",
     },
+    
     {
-      value: "Full Legs Rs.450",
+      value: " Demi-jambes Rs.300",
       type: "Pro",
     },
     {
-      value: "Half Legs Rs.300",
-      type: "Pro",
-    },
-    {
-      value: "Daily Backups",
+      value: " Sauvegarde habituelle",
       type: "Expert",
     },
-    {
-      value: "One Click Setup",
-      type: "Expert",
-    },
+    
   ]
 
   return (
@@ -76,8 +70,8 @@ function Pricing() {
         <img src={pricing2} alt="background" className="bg2" />
       </div>
       <div className="pricing__title">
-        <p>Find your pricing plan</p>
-        <h2>Finding the best salons in your city could be time consuming..</h2>
+        <p>Trouvez votre plan tarifaire</p>
+        <h2>Trouver les bons salons de votre ville peut prendre du temps...</h2>
       </div>
       <div className="pricing">
         {plans.map(({ name, price }, index) => {
@@ -124,7 +118,7 @@ function Pricing() {
                   })}
                 </ul>
                 <div className="pricing__plan__content__actions">
-                  <span>Order Now</span>
+                  <span>Lire la suite</span>
                   <img src={play} alt="Order Now" />
                 </div>
               </div>

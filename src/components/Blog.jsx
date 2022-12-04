@@ -11,19 +11,19 @@ function Blog() {
   const [element, controls] = useScroll();
   const blogsData = [
     {
-      title:"PARLOUR JOURNAL",
+      title:"JOURNAL DU PARLOIR",
       type: "SPA",
-      description: "Our blog is intended to help answer your hair related questions and provide information about healthy hair choices and products.",
+      description: "Notre blog est destiné à vous aider à répondre à vos questions sur les cheveux et à fournir des informations sur les choix et les produits pour des cheveux sains.",
     },
     {
-      title:"REFELXOLOGY SKY",
+      title:"CIEL DE RÉFLEXOLOGIE",
       type: "Relax",
-      description: "Reflexologists believe that these reflex points, pressing them creates real benefits for the person's health. If you have any questions, please email",
+      description: "Les réflexologues pensent que ces points réflexes, les presser crée de réels bénéfices pour la santé de la personne. Si vous avez des questions, veuillez envoyer un e-mail",
     },
     {
-      title:"MEDITATION SUN",
+      title:"MÉDITATION",
       type: "Yoga",
-      description: "Keep your body and mind it pure and clean for the soul to reside in. Our Spa Offer yoga classes in areas. creates real benefits for the person's health.",
+      description: "Gardez votre corps et votre esprit purs et propres pour que l'âme y réside. Notre spa propose des cours de yoga dans certaines zones. crée de réels bénéfices pour la santé de la personne.",
     },
   ]
   return <Section id="blog" ref={element}>
@@ -50,7 +50,7 @@ function Blog() {
                 </div>
                 <div className="more">
                   <img src={play} alt="Play" />
-                  <span>Read More</span>  
+                  <span>Lire la suite</span>  
                 </div>
             </motion.div>
           )

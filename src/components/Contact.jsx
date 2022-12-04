@@ -20,28 +20,28 @@ function Contact() {
       }}
       >
         <div className="contact__title">
-          <p>Stay in touch with me </p>
-          <h2>Quick Contact</h2>
+          <p>Reste en contact avec moi </p>
+          <h2>contact rapide</h2>
         </div>
         <div className="contact__data">
           <div className="contact__data__description">
-            <h4>Just to say hi !!</h4>
+            <h4>Juste pour dire bonjour !!</h4>
             <p>
-              If you have any questions simply use the following contact details.
+            Si vous avez des questions, utilisez simplement les coordonnées suivantes.
             </p>
             <p>
-              Business Owners to take their Online Presence 
-              to the next level. We are in the business of Bulk SMS, Digital Marketing.
+            Les propriétaires d'entreprise pour prendre leur présence en ligne
+              au niveau suivant. Nous sommes dans le domaine des SMS en masse, du marketing numérique.
             </p>
             <div>
               <p>
-                <strong>Address:</strong> 33, Flyover Road,
+                <strong>Address:</strong> 322, Rue Kpalimé,
               </p>
               <p>
-                <strong>Email:</strong> blossoms@gmail.com
+                <strong>Email:</strong> yves.kokou.10@gmail.com
               </p>
               <p>
-                <strong>Website:</strong> www.blossoms.com
+                <strong>Website:</strong> www.yvesco.com
               </p>
             </div>
           </div>
@@ -49,7 +49,7 @@ function Contact() {
             <input type="text" placeholder='name' />
             <input type="email" placeholder='email' />
             <textarea placeholder='message'></textarea>
-            <button>Send Message</button>
+            <button>Envoyer Message</button>
           </div>
         </div>
       </motion.div>

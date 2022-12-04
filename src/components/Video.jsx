@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 import { videoAnimations } from "animation";
 import { useScroll } from "./useScroll";
+import salon from "../assets/salon.mp4"
 
 function Video() {
   const [element, controls] = useScroll();
@@ -21,7 +22,7 @@ function Video() {
       <iframe
           width="960"
           height="515"
-          src="https://www.youtube.com/embed/2ffOXOfZzn0"
+          src={salon}
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

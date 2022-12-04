@@ -11,9 +11,9 @@ function Testimonials() {
   const testimonials = [
     {
       designation: "SPA",
-      name: "Julie Baker",
+      name: "Yvesco",
       review:
-      "Perfection is by far one of the best retreats around, professional in every aspect but friendly too. Michelle and her dedicated team will do their best to meet your needs and give you your ultimate treatment. Massages are a must and worth every penny. Highly worth a visit !"
+      "La perfection est de loin l'une des meilleures retraites du coin, professionnelle dans tous les aspects mais conviviale aussi. Michelle et son équipe dévouée feront de leur mieux pour répondre à vos besoins et vous donner votre traitement ultime. Les massages sont un must et valent chaque centime. Vaut vraiment le détour!!"
     },
     {
       designation: "Full Makeup",

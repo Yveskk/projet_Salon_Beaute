@@ -33,8 +33,8 @@ function Skills() {
     <Section id="skills" ref={element}>
       <Title value="skills" />
       <div className="skills__title">
-        <p>Our Skills</p>
-        <h2>Check our super awesome skills</h2>
+        <p>Nos compétences</p>
+        <h2>Découvrez nos compétences super géniales</h2>
       </div>
       <div className="skills">
         <div className="skills__bars">
@@ -62,12 +62,12 @@ function Skills() {
         </div>
         <div className="skills__content">
           <p className="title">
-            Beauty Services and Products
+            Services et produits de beauté
           </p>
           <p className="description">
-            To be a successful beautician, you should have a wide range 
-            of skills in beauty services, good communication skills, 
-            and the ability to advise clients on suitable hairstyles.
+          Pour être une esthéticienne réussie, vous devez avoir une large gamme
+            de compétences dans les services de beauté, bonnes capacités de communication,
+            et la capacité de conseiller les clients sur les coiffures appropriées.
           </p>
         </div>
       </div>
