@@ -105,7 +105,7 @@ min-height: 100vh;
       textarea {
         text-transform: uppercase;
         border: none;
-        border-bottom: 0.1rem solid var(--secondary-color);
+        border-bottom: 0.3rem solid var(--secondary-color);
         width: 100%;
         color: var(--secondary-color);
         padding-bottom: 0.7rem;
@@ -114,6 +114,7 @@ min-height: 100vh;
         }
         &::placeholder {
           color: var(--secondary-color);
+          font-size: 1.3rem;
         }
       }
       textarea {

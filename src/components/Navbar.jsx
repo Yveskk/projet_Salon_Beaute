@@ -6,6 +6,7 @@ import { MdClose } from "react-icons/md";
 import { useScroll } from "components/useScroll";
 import { motion } from "framer-motion";
 import { navAnimation } from "animation";
+import { Link, Router} from 'react-router-dom';
 
 
 function Navbar() {
@@ -19,7 +20,7 @@ function Navbar() {
   >
     <div className="brand__container">
       <a href="#" className='brand'>
-        <img src={logo} alt="logo" />
+     
       </a>  
       <div className="toggle">
         {isNavOpen ? (
@@ -35,26 +36,28 @@ function Navbar() {
       </div>
     </div>
     <div className={`links ${isNavOpen ? "show" : ""}`}>
+      <Router>
     <ul>
         <li className="active">
-            <a href="#home">Home</a>
+        <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="#services">Services</a>
+          <Link to="/Services">service</Link>
           </li>
           <li>
-            <a href="#portfolio">Galerie</a>
+          <Link to="/contact">contact</Link>
           </li>
           <li>
-            <a href="#blog">Blog</a>
+            <a href="#blog"> <strong>Blog</strong> </a>
           </li>
           <li>
-            <a href="#skills">Skills</a>
+            <a href="#skills"> <strong>Skills</strong> </a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact"> <strong>Contact</strong> </a>
           </li>
         </ul>
+        </Router>
     </div>
   </Nav>
 }
