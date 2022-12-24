@@ -6,10 +6,11 @@ import Navbar from './Navbar';
 import { motion } from "framer-motion";
 import { homeAnimation, homeInfoAnimation } from "animation";
 
-function Home() {
+
+function HomeComponent() {
   return (
     <Section id="home">
-      <Navbar />
+      {/* <Navbar /> */}
       <motion.div className="home"
       variants={homeAnimation}
       transition={{ delay: 0.3, duration: 0.6, type: "tween" }}
@@ -127,4 +128,4 @@ const Section = styled.section`
   }
 `;
 
-export default Home
+export default HomeComponent

@@ -6,7 +6,7 @@ import { MdClose } from "react-icons/md";
 import { useScroll } from "components/useScroll";
 import { motion } from "framer-motion";
 import { navAnimation } from "animation";
-import { Link, Router} from 'react-router-dom';
+import { BrowserRouter as Router, Link} from 'react-router-dom';
 
 
 function Navbar() {
@@ -40,11 +40,11 @@ function Navbar() {
     <ul>
         <li className="active">
         <Link to="/">Home</Link>
-          </li>
-          <li>
-          <Link to="/Services">service</Link>
-          </li>
-          <li>
+        </li>
+        <li>
+          <Link to="/services">Services</Link>
+        </li>
+        <li>
           <Link to="/contact">contact</Link>
           </li>
           <li>
